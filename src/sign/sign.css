@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.page {
+    margin-top: 15vh;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titleWrap{
+    font-size: 50px;
+    font-weight: 200;
+    font-family:'bitbit';
+}
+
+.contentWrap {
+    margin-top: 26px;
+    flex: 1;
+    background-color: rgb(220, 208, 193);
+    padding: 58px;
+    border-radius: 30px;
+}
+
+.inputTitle {
+    font-family: 'TTTtangsbudaejjigaeB';
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 1vh;
+}
+
+.inputWrap {
+    width: 24vw;
+    display: flex;
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 1vh;
+    background-color: white;
+    border: 2px solid grey;
+}
+
+.inputWrap:focus-within {
+    border: 2px solid green;
+}
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'KimjungchulGothic-Bold';
+
+}
+
+input::placeholder {
+    color : rgb(203, 200, 200);
+}
+
+.errorMessageWrap{
+    margin-top: 8px;
+    color: red;
+    font-size: 15px;
+}
+
+.bottomButton {
+    width: 18vw;
+    height: 5vh;
+    font-size: 20px;
+    border-color: rgb(68, 66, 63);
+    border-radius: 20px;
+    margin-top: 3vh;
+    background-color: rgb(85, 82, 78);
+    color: aliceblue;
+    font-family:'bitbit';
+    padding: 1%;
+    cursor: pointer;
+}
+
+.bottomButton:hover{
+    background-color: rgb(200, 78, 17);
+}
+
+.goButton {
+    width: 20vw;
+    height: 7vh;
+    font-size: 20px;
+    border-color: rgb(68, 66, 63);
+    border-radius: 20px;
+    margin-top: 3vh;
+    background-color: black;
+    color: aliceblue;
+    font-family:'bitbit';
+    padding: 1%;
+    cursor: pointer;
+
+}
+
+.HomeBtn {
+    width: 15vw;
+    height: 3vh;
+    font-size: 15px;
+    font-weight: 100;
+    border-color: rgb(227, 205, 178);
+    border-radius: 20px;
+    margin-top: 3vh;
+    background-color: rgb(253, 252, 250);
+    font-family:'bitbit';
+    padding: 1%;
+    cursor: pointer;
+
+}
+
+.signinBtn{
+    margin-top: 2vh;
+    font-size: 15px;
+    color: green;
+    cursor: pointer;
+    font-family: 'KimjungchulGothic-Bold';
+
+}
+
+.signinBtn:hover {
+    color: black
+}
