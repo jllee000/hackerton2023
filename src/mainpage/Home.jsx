@@ -1,6 +1,8 @@
 import React from "react";
 import Sidebar from "./side/Sidebar";
 import Homediv from "./homediv/Homediv";
+import Nav from "./nav/Nav";
+
 
 function Home() {
     return(
@@ -10,6 +12,7 @@ function Home() {
             </div>
             
             <div>
+                 <Nav />
                 <Homediv />
 
             </div>
