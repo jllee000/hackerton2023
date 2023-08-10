@@ -1,6 +1,8 @@
-import React from "react";
-import {Route, Routes} from "react-router-dom";
-import Sign from "./sign/Sign";
+import React from 'react'; 
+import {Routes,Route} from 'react-router-dom';
+import Login from './login/Login';
+import Sign from './sign/sign';
+import Home from './mainpage/Home';
 
 function App() {
 
@@ -9,7 +11,9 @@ function App() {
   return (
     <div class="App">
       <Routes>
-        <Route path="/"  element={<Sign/>} exact />
+        <Route path="/" element={<Login />} />
+        <Route path="/signup" element={<Sign />} />
+        <Route path="/main" element = {<Home />} />
         
       </Routes>
         
