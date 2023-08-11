@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+  }
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.signbox {
+    font-family: 'TTTtangsbudaejjigaeB';
+    background-color: white;
+    text-align: center;
+    width: 50vw;
+    margin-top: 10vh;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.signform{
+    margin-top: 5vh;
+}
+
+.inputbox{
+    width: 24vw;
+    height: 3.8vh;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.inputbox:focus-within {
+    border: 2px solid green;
+}
+
+.signbtn{
+    background-color: rgb(255, 175, 76);
+    font-size: 15px;
+    font-weight: 100;
+    border-color: rgb(205, 113, 0);
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+    font-family:'bitbit';
+    padding: 1%;
+    width: 10vw;
+    height: 8vh;
+}
+
+.signbtn:hover{
+    background-color: #90d994;
+}
+
+.home {
+    font-family: 'KimjungchulGothic-Bold';
+    color : green;
+    cursor: pointer;
+}
